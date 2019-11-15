@@ -2,31 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".RoomReadActivity">
 
     <TextView
         android:background="@color/colorAccent"
+        android:padding="5dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
         android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TWOH.Co Room Database"/>
+        android:text="Daftar Inventaris"/>
 
-    <Button
-        android:layout_margin="5dp"
-        android:id="@+id/bt_createdata"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tambah Data" />
-
-    <Button
-        android:layout_margin="5dp"
-        android:id="@+id/bt_viewdata"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lihat Data" />
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
 
 </LinearLayout>
