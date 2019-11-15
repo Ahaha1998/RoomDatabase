@@ -7,8 +7,7 @@
     android:layout_gravity="center_horizontal"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".RoomCreateActivity">
+    android:padding="10dp">
 
     <androidx.cardview.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -37,9 +36,9 @@
                 android:layout_height="wrap_content"
                 android:text="Data"/>
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+<!--            <android.support.design.widget.TextInputLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
 
                 <EditText
                     android:id="@+id/et_namabarang"
@@ -48,11 +47,11 @@
                     android:hint="Nama Barang"
                     android:inputType="text" />
 
-            </android.support.design.widget.TextInputLayout>
+<!--            </android.support.design.widget.TextInputLayout>-->
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+<!--            <android.support.design.widget.TextInputLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
 
                 <EditText
                     android:id="@+id/et_merkbarang"
@@ -61,11 +60,11 @@
                     android:hint="Merk Barang"
                     android:inputType="text" />
 
-            </android.support.design.widget.TextInputLayout>
+<!--            </android.support.design.widget.TextInputLayout>-->
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+<!--            <android.support.design.widget.TextInputLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
 
                 <EditText
                     android:id="@+id/et_hargabarang"
@@ -74,7 +73,7 @@
                     android:hint="Harga Barang"
                     android:inputType="number" />
 
-            </android.support.design.widget.TextInputLayout>
+<!--            </android.support.design.widget.TextInputLayout>-->
 
             <Button
                 android:id="@+id/bt_submit"
